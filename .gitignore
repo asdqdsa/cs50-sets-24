@@ -50,3 +50,7 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Ignore all files without an extension
+# This may not work as intended; use specific file names instead
+*.[!a-zA-Z0-9] 
