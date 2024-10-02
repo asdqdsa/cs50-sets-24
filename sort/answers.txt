@@ -1,0 +1,44 @@
+sort1 uses: bubble sort
+
+How do you know?: Performance with sorted data was fast, but reversed and random data showed slower results. That aligns with Bubble Sort out of all 3 given algorithms.
+
+sort2 uses: mergesort
+
+How do you know?: Regardless of how the data is sorted, the sorting algorithm seems to take the same amount of time, indicating the same time complexity for the best, average, and worst cases. Also time mesurments were always among the best(quickest). 
+
+sort3 uses: selection sort
+
+How do you know?: Like the previous algorithm (Merge Sort), this one behaved similarly but slower, which aligns with its time complexity, where the best case is Ω(n²), greater than the Ω(n log n) of the previous algorithm.
+
+sorted
+10 000
+sort 1 - 0.031
+sort 2 - 0.025
+sort 3 - 0.093
+---\
+50 000
+sort 1 - 0.116
+sort 2 - 0.118
+sort 3 - 2.139
+
+reversed
+10 000
+sort 1 - 0.223
+sort 2 - 0.030
+sort 3 - 0.102
+---\
+50 000
+sort 1 - 6.495
+sort 2 - 0.138
+sort 3 - 1.954
+
+random
+10 000
+sort 1 - 0.196
+sort 2 - 0.027
+sort 3 - 0.099
+---\
+50 000
+sort 1 - 6.255
+sort 2 - 0.133
+sort 3 - 2.503
