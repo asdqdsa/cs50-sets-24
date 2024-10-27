@@ -1,0 +1,6 @@
+[tool.ruff]
+
+line-length = 79
+select = ["E", "F", "W", "C", "N"]     # Linting rules to check
+#ignore = ["W291"]         # Ignore specific rules
+#exclude = ["tests/*"]     # Exclude specific folders
