@@ -1,0 +1,5 @@
+flight_id  passport_number  seat  id  origin_airport_id  destination_airport_id  year  month  day  hour  minute  id  abbreviation  full_name                    city         
+---------  ---------------  ----  --  -----------------  ----------------------  ----  -----  ---  ----  ------  --  ------------  ---------------------------  -------------
+10         3391710505       2A    10  8                  4                       2023  7      30   13    55      4   LGA           LaGuardia Airport            New York City
+28         3391710505       2A    28  3                  8                       2023  7      26   22    49      8   CSF           Fiftyville Regional Airport  Fiftyville   
+47         3391710505       4D    47  4                  8                       2023  7      30   9     46      8   CSF           Fiftyville Regional Airport  Fiftyville   

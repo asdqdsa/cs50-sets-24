@@ -60,6 +60,7 @@ def main():
 
         if found_match:
             print(person["name"])
+            break
     else:
         print("No match")
 

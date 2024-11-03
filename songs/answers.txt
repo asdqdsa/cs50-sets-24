@@ -1,0 +1,32 @@
+1.
+'User Data'
+AVG(energy)  AVG(danceability)  AVG(valence)
+-----------  -----------------  ------------
+0.65906      0.71646            0.484443
+
+'Spotify Audio Aura description'
+Purple: This aura color pairs well with passionate music listeners. Purple auras tune in to get amped up, entertained, and moving while they navigate the twists and turns of their day.
+Green: Calm, analytical, and introspective are the traits that describe a green aura. These listeners gravitate toward complex music to tame their fast-moving minds.
+Pink: Often described as the hopeless romantics of the aura spectrum, pinks view the world with a sense of optimistic, childlike wonder.
+Orange: Oranges are the rebellious and bold type. They share a need for high-energy, confidence-boosting sounds.
+Yellow: Yellows like their music to align them to the goals of their day, fueling their need for focus, motivation, and self improvement all while reducing any nerves that could get in the way.
+Blue: Blues are wistful or emotional, and this hue reflects listeners who seek out music to feel their feelings out loud.
+
+1.
+Q: If songs.db contains the top 100 songs of one listener from 2018, how would you characterize their audio aura?
+A:
+Using the data from 100 songs and the Spotify audio aura categories, I can estimate what kind of aura the user likely had that year.
+
+The energy score suggests the listener enjoys relatively energetic music, so we can rule out Green, which is more associated with calm, analytical listeners.
+With a valence below 0.5, we see a slight preference for something a bit melancholic, but not overwhelmingly so, which excludes Orange and Blue.
+This leaves us with Pink, Yellow, and Purple auras.
+
+With danceability around 0.7, it’s not straightforward to choose.
+Since I don't have access to Spotify's exact algorithm, I can only rely on these descriptions.
+However, a listener who prefers above-average energy, high danceability, and a low-to-average valence could very well be someone aiming to get focused and align with their goals—making Yellow the best fit for this user's aura.
+
+2.
+Q: Hypothesize about why the way you’ve calculated this aura might not be very representative of the listener. What better ways of calculating this aura would you propose?
+A:
+The estimated aura may not accurately represent the listener, because my calculations were based on broad descriptions, which might lack enough precision.
+To portray the listener more accurately, we should account not only for each song's hard data, like energy, danceability, and valence at a glance, but also for how frequently each track was played.
