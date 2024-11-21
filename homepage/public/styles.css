@@ -33,6 +33,7 @@ body {
 	display: flex;
 	justify-content: space-between;
 	font-family: monospace;
+	font-size: 13px;
 }
 
 .social__list {
