@@ -1,0 +1,8 @@
+{
+    "sqlFormatter": "sql-formatter",
+    "tabWidth": 2,
+    "useTabs": true,
+    "keywordCase": "uppercase",
+    "indentStyle": "standard",
+    "logicalOperatorNewline": "before"
+}
