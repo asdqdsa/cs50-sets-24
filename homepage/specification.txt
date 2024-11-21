@@ -1,0 +1,20 @@
+10 HTML tags that I've used:
+header
+div
+ul
+li
+nav
+main
+h1-h3
+section
+p
+a
+
+5 CSS properties that I've used:
+display
+padding
+color
+gap
+block-size
+
+I used JavaScript to to add classes to the navlinks on hover, and with bootstrap, I utilized it for the x icon in the footer.

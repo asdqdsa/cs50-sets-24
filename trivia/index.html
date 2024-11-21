@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <title>Trivia!</title>
+    <script defer src="./script.js">
+        // TODO: Add code to check answers to questions
+    </script>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Trivia!</h1>
+    </div>
+
+    <div class="container">
+        <div class="section">
+            <h2>Part 1: Multiple Choice </h2>
+            <hr>
+            <!-- TODO: Add multiple choice question here -->
+            <h3 class="question">Which Founding Father was known as the primary author of the Declaration of
+                Independence?</h3>
+            <div id="multi-block">
+                <button class="choice" id="choice-2">Patrick Henry</button>
+                <button class="choice" id="choice-3">George Washington</button>
+                <button class="choice" id="choice-1">Thomas Jefferson</button>
+                <button class="choice" id="choice-4">Paul Revere</button>
+            </div>
+            <p class="feedback" id="result-multi-block"></p>
+        </div>
+
+        <div class="section">
+            <h2>Part 2: Free Response</h2>
+            <hr>
+            <!-- TODO: Add free response question here -->
+            <h3 class="question">Complete the phrase with the correct word: “Give me liberty, or give me ___!”</h3>
+            <form id="free-form">
+                <input autocomplete="off" autofocus name="answer" placeholder="Type you answer here" type="text">
+                <button type="submit">Check Answer</button>
+            </form>
+            <p class="feedback" id="result-free-form"></p>
+        </div>
+    </div>
+</body>
+
+</html>
